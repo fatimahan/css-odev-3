@@ -1,0 +1,96 @@
+.top-article {
+    margin: 0 auto;
+    display: table;
+}
+
+.img-user {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    display: table;
+}
+
+ion-icon {
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.d-block {
+    display: block;
+}
+
+.text-primary {
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.img-logo {
+    margin: 60px auto 10px auto;
+}
+
+.search {
+    display: flex;
+    background-color: #fff;
+    height: 35px;
+    width: 400px;
+    border: 1px solid #888;
+    border-radius: 3px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.search:hover {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search button {
+    height: 100%;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    width: 30px;
+    color: #888;
+}
+
+.search ion-icon {
+    display: inline;
+    margin: 0;
+}
+
+.search input {
+    height: 25px;
+    margin-left: 5px;
+}
+
+.form-buttons {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ddd;
+    padding: 10px;
+    margin-top: 50px;
+    height: 20px;
+    border: 1px solid #c9c7c7;
+    border-radius: 3px;
+}
+
+.footer ul {
+    display: flex;
+    padding-left: 0;
+}
+
+.footer ul li {
+    color: #777;
+    list-style: none;
+    margin-right: 20px;
+}
